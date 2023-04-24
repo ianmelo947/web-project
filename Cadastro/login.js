@@ -22,6 +22,6 @@ function procura_usuario(cpf_storage, senha_storage) {
     return index
 }
 
-let btn_cpf = document.getElementById('cpf')
-let btn_senha = document.getElementById('senha')
+let btn_cpf = document.querySelector('#cpf')
+let btn_senha = document.querySelector('#senha')
 
